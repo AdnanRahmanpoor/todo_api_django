@@ -27,8 +27,8 @@ pip install django djangorestframework
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/todo-api.git
-   cd todo-api
+   git clone https://github.com/AdnanRahmanpoor/todo_api_django.git
+   cd todo_api_django
    ```
 
 2. Run migrations:
@@ -46,13 +46,13 @@ pip install django djangorestframework
 ### Project Structure
 
 ```
-todo_api_project/
+todo_api_django/
 ├── todo_api/             # To-Do app with model, serializer, views, and urls
 │   ├── models.py         # Task model
 │   ├── serializers.py    # Task serializer
 │   ├── views.py          # TaskViewSet for CRUD operations
 │   └── urls.py           # URL routing for the API
-└── todo_api_project/     # Main Django project
+└── todo_api_django/     # Main Django project
     ├── settings.py       # Project settings
     └── urls.py           # Includes the app's API URLs
 ```
