@@ -1,0 +1,1 @@
+# Simple API in Django for CRUD operations (TODO)
